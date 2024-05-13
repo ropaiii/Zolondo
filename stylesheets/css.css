@@ -1,0 +1,120 @@
+.slogan{
+    display: flex;
+    flex-flow:row;
+    justify-content: space-between;
+    width: 128.8%;
+}
+
+.slogan img{
+    justify-self: left;
+    margin-left: -10em;
+    margin-top: 4em;
+}
+
+.slogan h2{
+    position: relative;
+    color: white;
+    right: 8em;
+    bottom: 1em;
+    justify-self: center;
+    align-self: center;
+}
+
+.slogan .map{
+    width: 20em; 
+    height: 20em; 
+    border: 0;
+    margin-right: 1em;
+    justify-self:left;
+    align-self: center;
+}
+
+.slogan .map h2{   
+    position: relative;
+    top: 0em;
+    left: 2.5em; 
+    width: 9em;
+}
+
+.mode-header{
+    display: flex;
+    width: 128.8%;
+    background-color: white;
+    justify-content: center;
+}
+
+.mode-container{
+    display: flex;
+    width: 128.8%;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+.mode-container p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.newsletter{
+    width: 128.8%;
+    height: 20em;
+    margin-top: 5em;
+    background-color: #ffffff;
+    
+}
+
+.newsletter .newsletter-text h2{
+    margin-left: 18em;
+}
+
+.newsletter .newsletter-text h3{
+    margin-left: 27.5em;
+}
+.newsletter .newsletter-container{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter .newsletter-container .button-prenumerera button{
+    background-color: black;
+    color: white;
+    width: 10em;
+    height: 3em;
+    position: relative;
+    top: 2em;
+    left: 2.5em;
+}
+
+.newsletter .newsletter-container button:hover{
+    cursor: pointer;
+}
+
+.contact-container{
+    display: flex;
+    margin-top: 2em;
+    background-color: white;
+    width: 128.8%;
+    height: 15em;
+    justify-content: space-evenly;
+}
+
+.contact-container p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contact-container li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contact-container img:hover{
+    cursor: pointer;
+}
+
+.contact-container .advantages ul{
+    position: relative;
+    list-style: none;
+    bottom: 1em;
+    right: 2.5em;
+}

@@ -1,0 +1,33 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-style: solid;
+    width: 15em;
+}
+
+.contact-container .contact-details #contact-message{
+    height: 5em;
+}
+
+.contact-container .contact-details label{
+    font-size:x-small;
+}
+
+/*Påverka knappar med ID Submit*/
+.contact-container .contact-details #Submit{
+    position: relative;
+    width: 10em;
+    height: 2em;
+    left: 1.25em;
+}
+
+.contact-table table{
+    width: 20em;
+    border-style: solid;
+}
+
+.contact-table td{
+    position: relative;
+    left: 1em;
+}

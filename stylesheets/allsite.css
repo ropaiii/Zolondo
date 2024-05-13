@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+/*Justera allt inom body*/
+body{
+    max-width: 980px;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gainsboro;
+}
+/*Justera nämnda element*/
+p, h1, h2, h3, img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.banner{
+    display: flex;
+    background-color:crimson;
+    width: 128.8%;
+    height: 3vw;
+    align-items: center;
+    justify-content: center;   
+}
+
+.banner p{
+    color: white;
+    margin: auto;
+}
+
+.banner img:hover{
+    cursor: pointer;
+}
+
+.header{
+    display: grid;
+    grid-template-rows: 3.5em;
+    grid-template-columns: 79em;
+    width: 128.8%;
+    height: 7em;
+    background-color: #ffffff;
+}
+
+.header .logo{
+    display: flex;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.header #menu{
+    position: relative;
+    margin-left: auto;
+    margin-right: 4em;
+}
+
+.header #menu .button-dropdown{
+    background-color: gainsboro;
+    width: 8em;
+    height: 2em;
+}
+
+.header #menu .dropdown-container{
+    display: none;
+    background-color: gainsboro;
+    border-style: solid;
+}
+
+.header #menu .dropdown-container a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.header #menu:hover .dropdown-container{
+    display: block;
+}
+
+.header #menu .dropdown-container a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}

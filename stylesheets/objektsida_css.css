@@ -1,0 +1,71 @@
+.products-container{
+    display: flex;
+    width: 76.5em;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    list-style: none;
+}
+
+.products-container .product{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 10em;
+    height: 15em;
+}
+
+.products-container .product-container{
+    border-style: solid;
+    background-color: #ffffff;
+}
+
+.products-container .product-container:hover{
+    border-style: solid;
+    border-color: yellow;
+}
+
+.products-container .product-container .productheader{
+    position: relative;
+    left: 0.9em;
+}
+
+.products-container .product-container .product p{
+    max-width: 10em;
+    word-wrap: break-word;
+}
+
+.products-container .product-container .product a:hover{
+    cursor: pointer;
+}
+
+.contact-container{
+    display: flex;
+    margin-top: 2em;
+    background-color: white;
+    width: 128.8%;;
+    height: 15em;
+    justify-content: space-evenly;
+}
+
+.contact-container p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contact-container li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contact-container img:hover{
+    cursor: pointer;
+    border-color:aliceblue;
+    border-style: solid;
+}
+
+.contact-container .advantages ul{
+    position: relative;
+    list-style: none;
+    bottom: 1em;
+    right: 2.5em;
+}
